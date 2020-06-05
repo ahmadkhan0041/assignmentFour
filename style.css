@@ -1,0 +1,226 @@
+.customColor {
+    background-color: #c39646;
+}
+
+
+/* the company styling */
+
+.TheComSection {
+    background-color: #312121;
+    color: #ffffff;
+}
+
+
+/* footer style. */
+
+.ftr {
+    background-color: #5f5d5d;
+    height: 70px;
+}
+
+
+/* new footer */
+
+.ftr {
+    background: #061D25;
+    padding: 10px 0;
+}
+
+.ftr a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+}
+
+.ftr a:first-child {
+    border-left: 1px solid #70726F;
+}
+
+.ftr a:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 13px;
+    color: #70726F;
+    background-color: #061d25;
+    margin: auto;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.copyright:hover {
+    color: #ffffff;
+}
+
+
+/* Gallery Style */
+
+.our-Gallery,
+.about-us,
+.TheComSection {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 32px;
+}
+
+
+/* The Company Style */
+
+.abut-us,
+.TheCompanyInfo {
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* about us page */
+
+
+/* background image style */
+
+
+/* .CustomImage {
+    width: 100%;
+    height: 300px;
+} */
+
+.jumbotron {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-c4d-sleek-minimalist-geometric-marble-furniture-home-decoration-section-back-image_214680.jpg) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: #ffffff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .jumbotron {
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-c4d-sleek-minimalist-geometric-marble-furniture-home-decoration-section-back-image_214680.jpg) !important;
+        height: 100px;
+    }
+}
+
+
+/* produst page style */
+
+.headerImageCustom {
+    background-image: url(https://cdn.shopify.com/s/files/1/0103/5639/2021/products/TIM_20180713174513_1024x1024.jpg?v=1578106338) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: #ffffff;
+    /* box-shadow: 2px 2px 5px rgb(212, 205, 205); */
+}
+
+
+/* testimonials styling start */
+
+.BGPicture {
+    background-image: url(https://craftsmenhomeimprovements.com/wp-content/uploads/2013/11/CHI-Testimonial-Header-01-%C2%A9.jpg) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: #ffffff;
+    /* padding: 30px;txtforMob */
+}
+
+
+/* contact us form styling */
+
+.ContactUSHeaderImage {
+    background-image: url(data:image/jpeg;base64,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) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: #ffffff;
+}
+
+
+/* boxex styling of produsts page */
+
+.MainTopContainerProductPage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .headerImageCustom {
+        background-image: url(https://cdn.shopify.com/s/files/1/0103/5639/2021/products/TIM_20180713174513_1024x1024.jpg?v=1578106338) !important;
+        height: 100px;
+    }
+}
+
+
+/* testimonial query */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .BGPicture {
+        background-image: url(https://cdn.shopify.com/s/files/1/0103/5639/2021/products/TIM_20180713174513_1024x1024.jpg?v=1578106338) !important;
+        height: 100px;
+    }
+}
+
+
+/* about us background media */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .jumbotron {
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-c4d-sleek-minimalist-geometric-marble-furniture-home-decoration-section-back-image_214680.jpg) !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .txtforMob {
+        font-size: 20px;
+        font-size: bold;
+    }
+}
+
+
+/* Produsts cards style */
+
+.CardsDesktopView {
+    max-width: 32%;
+    margin: 7px;
+}
+
+@media screen and (max-width: 400px) {
+    .CardsDesktopView {
+        max-width: 100%;
+    }
+}
+
+
+/* contact us from style */
+
+
+/* Style inputs */
+
+.bgStyle {
+    background-color: #a79a8394;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.Contactpadding {
+    /* font-weight: 700!important; */
+    padding-top: 10px;
+}
+
+.HeadingPadding {
+    padding-top: 23px;
+}

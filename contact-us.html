@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marble Company </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="text/css" href="min.css">
+</head>
+
+<body>
+
+    <!-- Nav Bar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top customColor">
+        <a class="navbar-brand" href="#"><img src="m-logo.png" width="100px" height="auto"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">PRODUCTS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonial.html">TESTIMONIAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-shopping-cart cartt-icon" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-user cartt-icon" aria-hidden="true"></i></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- nav finishi -->
+
+    <div class="jumbotron jumbotron-fluid .img-fluid .container-sm .container-md ">
+        <!-- <img class="CustomImage" src="Images/gallery17.jpg" alt=""> -->
+        <div class="container">
+            <h3 class="display-4 text-center pt-lg-5  txtforMob"><b>Contact US</b></h3>
+        </div>
+    </div>
+
+    <!-- Submit your Informatino Form -->
+
+    <div class="container bgStyle">
+        <section class="mb-4 Contactpadding">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Submit Your Information!</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? If yes So Please Fill Out The Form</p>
+
+            <div class="row">
+
+
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+
+                        <div class="row">
+
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="number" id="subject" name="number" class="form-control">
+                                    <label for="number" class="">Phone Number</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-warning " style="color: #fff">Submit</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <i class="fa fa-map-marker" aria-hidden="true"><p>Metroville Site Karachi</p></i>
+
+
+
+                        <li><i class="fa fa-phone"></i>
+                            <p>+92345 (3120) 041</p>
+                        </li>
+
+                        <i class="fa fa-envelope-open" aria-hidden="true"><p>ahmadkhan20041@gmail.com</p></i>
+
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <!-- form finish -->
+
+
+    <!-- start footer -->
+    <footer>
+        <div class="ftr ">
+            <div class="container text-center " style="padding-top: 23px">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-skype"></i></a>
+            </div>
+            <p class="copyright "> &copy;Copyright 2020</p>
+        </div>
+    </footer>
+    <!-- =======END FOOTER =========== -->
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+
+</html>
